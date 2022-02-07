@@ -27,7 +27,7 @@
         <div class="card">
             <div class="card-body">
                 <app-incrementer 
-                (outputVal)="progress1=$event" 
+                (outputVal)="progress1==$event" 
                 [btnClass]="'btn-red'" 
                 [valor]="progress1"></app-incrementer>
             </div>
@@ -36,7 +36,7 @@
     <div class="col-6">
         <div class="card">
             <div class="card-body">
-                <app-incrementer (outputVal)="progress2=$event" [valor]="progress2"></app-incrementer>
+                <app-incrementer (outputVal)="progress2 =$event" [valor]="progress2"></app-incrementer>
             </div>
         </div>
     </div>

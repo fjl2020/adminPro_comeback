@@ -14,6 +14,7 @@ import { PagesModule } from './pages/pages.module';
   declarations: [
     AppComponent,
     NopagesfoundComponent,
+    
 
   ],
   imports: [
