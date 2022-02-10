@@ -11,6 +11,7 @@ import { SharedModule } from '../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { ComponentModuleModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -20,6 +21,7 @@ import { ComponentModuleModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingsComponent,
 
   ],
   exports:[
@@ -27,6 +29,7 @@ import { ComponentModuleModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,

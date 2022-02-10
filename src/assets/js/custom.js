@@ -1,9 +1,4 @@
-/*
-Template Name: Admin Pro Admin
-Author: Wrappixel
-Email: niravjoshi87@gmail.com
-File: js
-*/
+const customInitFunctions=()=>{
 $(function() {
     "use strict";
     $(function() {
@@ -154,4 +149,6 @@ $(function() {
         $(this).closest('.card').removeClass().slideUp('fast');
     });
 
-});
+});}
+
+customInitFunctions();
